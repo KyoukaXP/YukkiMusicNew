@@ -38,6 +38,7 @@ def lanuages_keyboard(_):
             text="🇮🇩 Sunda",
             callback_data=f"languages:su",
         ),
+    )
     keyboard.row(   
         InlineKeyboardButton(
             text="🇮🇩 Jawa",
