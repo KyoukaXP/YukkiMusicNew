@@ -1,0 +1,426 @@
+name: Sunda
+
+# General Strings
+general_1 : "Bales pesen pamaké atawa pasihan ngaran pamaké/user_id."
+general_2 : "Kasalahan! Salah Pamakéan Komando."
+general_3 : "Sababaraha **kajadian pengecualian** nalika ngolah pamundut anjeun.\n\nJenis Pangecualian:- {0}"
+general_4 : "Anjeun admin anonim dina grup obrolan ieu!\nBalikkeun deui ka Akun Pamaké Ti Hak Admin."
+general_5 : "Anjeun kudu jadi admin jeung ngatur hak obrolan sora pikeun ngalakukeun aksi ieu."
+general_6 : "Bot teu ngalirkeun data dina obrolan sora."
+
+# Classes - Telegram.py
+tg_1 : "Bot **dibebanan** ku undeuran ayeuna.\n\n**Coba Saatos:** {0} (__diperkirakeun waktu__)"
+tg_2 : "Gagal ngundeur média ti telegram."
+
+# Inti - Call.py
+call_1 : "Bot meryogikeun **Admin** Idin pikeun ngondang akun asisten ka saluran anjeun.\n\nPareuman modeu puter Saluran ngalangkungan : /playmode"
+call_2 : "Asistén dilarang dina grup atanapi saluran anjeun, mangga cabut laranganna.\n\n**Asistant Username:** @{0}\n**Asistant ID:** {1}"
+call_3 : "Pengecualian Kajadian Nalika Ngondang Akun Asisten kana obrolan anjeun.\n\n**Alesan**: {0}"
+call_4 : "Bot merlukeun **Ulem Pamaké Via Link** Idin pikeun ngondang akun asisten ka grup obrolan anjeun."
+call_5 : "Akun Asisten bakal ngagabung dina 5 Detik..Punten Antosan!"
+call_6 : "Akun Asistén[{0}] Sukses Gabung.\n\nMimitian Musik Ayeuna"
+call_7 : "**Hak Admin Ngabahayakeun Dipasihan **\n\nPunten hapus hak **PANGGUNA** BAN tina bot."
+call_8 : "**Hak Admin Ngabahayakeun Dipasihan **\n\nPunten hapus hak **TAMBAH ADMIN ANYAR** tina bot."
+call_9 : "**Gagal ngalihkeun Stream**\nPunten anggo /skip kanggo ngagentos lagu deui."
+call_10 : "Ngundeur Lagu Salajengna tina Daptar Puter"
+call_11 : "Punten tambahkeun @{0} kana saluran anjeun[ ID: {1}].\n\nBot teu tiasa nampi detil saluran."
+
+# PLUGINS - Auth.py
+auth_1 : "Anjeun ngan ukur tiasa gaduh 20 Pamaké dina Daptar Pamaké Otorisasi (AUL) grup anjeun"
+auth_2 : "Tambihkeun kana Daptar Pamaké anu Otorisasi grup anjeun."
+auth_3 : "Geus aya dina Daptar Pamaké anu Diwenangkeun."
+auth_4 : "Dipiceun tina Daptar Pamaké Otorisasi Grup ieu."
+auth_5 : "Pamaké anu ditargetkeun sanés Pamaké anu Otorisasi."
+auth_6 : "Nyandak Pamaké Otorisasi... Mangga Antosan"
+auth_7 : "**Daptar Pamaké Otorisasi[AUL]:**\n\n"
+auth_8 : "┗ Ditambahkeun Ku:-"
+
+# PLUGINS - Admin
+admin_1 : "Musik geus Direureuhkeun."
+admin_2 : "🎧 Obrolan Sora Direureuhkeun ku {}!"
+admin_3 : "Musik geus diteruskeun."
+admin_4 : "🎧 Obrolan Sora Diteruskeun ku {}!"
+admin_5 : "Musik tos dipareuman."
+admin_6 : "🎧 Obrolan Sora Dijempékeun ku {}!"
+admin_7 : "Musikna tos dihurungkeun."
+admin_8 : "🎧 Obrolan Sora Dihurungkeun ku {}!"
+admin_9 : "🎧 Obrolan Sora Tamat/Dieureunan ku {}!"
+admin_10 : "🎧 Obrolan Sora Dilewatan ku {}!. Teu aya deui Musik dina Antrian."
+admin_11 : "Kasalahan nalika ngarobah aliran ka **{0}**\n\nPunten nganggo /skip deui."
+admin_12 : "Henteu tiasa ngaluncat ka lagu khusus kusabab diaktipkeun loop play. Mangga pareuman loop play via `/loop disable` pikeun ngagunakeun fitur ieu."
+admin_13 : "Punten nganggo nomer numerik kanggo lagu khusus, sapertos 1, 2 atanapi 4 jsb"
+admin_14 : "Sahenteuna 2 lagu diperlukeun dina antrian pikeun skip ka nomer husus. Pariksa antrian ku / antrian "
+admin_15 : "Teu cukup lagu dina antrian pikeun nilai nu dibikeun ku anjeun. Mangga pilih angka antara 1 jeung {0}"
+admin_16 : "Gagal skip ka lagu husus.\n\nCék antrian kénca ku /queue"
+admin_17 : "{0}.. Mangga Antosan"
+admin_18 : "Daptar Admin Teu Kapendak\n\nPunten muatkeun deui daptar admin via /admincache atanapi /reload"
+admin_19 : "Anjeun kudu jadi admin jeung ngatur hak obrolan sora pikeun ngalakukeun ieu.\nLamun anjeun geus jadi admin, muat deui admincache ngaliwatan /admincache "
+admin_20 : "Cache admin junun dimuat deui."
+admin_21 : "Henteu aya dina antrian pikeun ngacak"
+admin_22 : "Gagal ngacak.\n\nCék antrian : /queue"
+admin_23 : "**Antrian diacak ku {0}**\n\nCék antrian diacak : /ntri"
+admin_24 : "** Pamakéan:**\n/loop [aktipkeun/nonaktipkeun] atawa [Jumlah antara 1-10]\n\n**Conto:** /loop 5"
+admin_25 : "Loop diaktipkeun ku {0} pikeun **{1}** kali. Bot ayeuna bakal ngulang deui musik anu diputer dina obrolan sora pikeun **{1}** kali"
+admin_26 : "Punten nganggo angka antara 1-10 kanggo muter gelung"
+admin_27 : "Loop Play geus ditumpurkeun"
+
+#Bot
+
+# Mimitian
+start_1 : "Hatur nuhun tos gaduh abdi di {0}.\n{1} hirup.\n\nPikeun bantosan atanapi bantosan, pariksa grup dukungan sareng saluran kami."
+start_2 : "Halo, Nami abdi {0}.\n\nAbdi bot streaming telegram sareng sababaraha fitur anu mangpaat. Ngadukung platform sapertos Youtube, Spotify, Resso, AppleMusic, Soundcloud jsb.\n\nPunten tambihan abdi ka kelompok anjeun."
+start_3 : "Wilujeng sumping di {0}\n\nAbdi henteu peryogi **idin admin** kanggo damel ( dugi ka dipénta).\n\nAsistant Username:- @{1}\nAsistant ID:- {2} "
+start_4 : "Pamilik {0}[{1}] nembé gabung dina obrolan anjeun."
+start_5 : "A anggota {0}'s Sudo User[{1}] nembé gabung dina obrolan anjeun."
+start_6 : "❗️ **Supergroup Dibutuhkeun** ❗️\n\nMangga ngarobah **group** anjeun ka **supergroup** terus tambahkeun kuring deui.\n\n**Kumaha carana nyieun supergroup?**\n✅ Jieun sajarah obrolan grup anjeun **katingali** sakali."
+start_7 : "**Obrolan Daptar Hideung**\n\nObrolan anjeun geus di-blacklist ku Bot. Punten taroskeun SudoUser mana waé pikeun ngabodaskeun obrolan heula. Pariksa [Sudolist ti dieu]({0})"
+
+# Tulung
+help_1 : "Klik tombol di handap pikeun inpormasi anu langkung lengkep. Upami anjeun nyanghareupan masalah dina paréntah anjeun tiasa ngahubungi pamilik bot abdi atanapi naroskeun dina obrolan dukungan.\n\nSadaya paréntah tiasa dianggo sareng: /"
+help_2 : "Hubungi kuring di PM pikeun pitulung."
+
+# Setélan
+setting_1 : "⚙️ **Setélan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih pungsi tombol ti handap nu Anjeun hoyong edit atawa robah.**"
+setting_3 : "⁉️ Naon Ieu?\n\n1) Langsung: Muterkeun pamundut pamilarian sacara langsung. Anggo -v pikeun muterkeun video dina modeu langsung.\n\n2) Inline: Ngabalikeun Tombol Markup Inline pikeun milih antara video & audio."
+setting_4 : "⁉️ Naon Ieu?\n\n👥 Sadayana: Saha waé tiasa nganggo paréntah admin(skip, pause, resume jsb) anu aya dina grup ieu.\n\n🙍 Admin Ngan: Ngan admin sareng pangguna anu diidinan tiasa nganggo paréntah admin ."
+setting_5 : "Teu Kapendak Pamaké anu Otorisasi\n\nAnjeun tiasa ngijinkeun non-admin nganggo paréntah admin abdi ku /auth sareng ngahapus nganggo /unauth"
+setting_9 : "⁉️ Naon Ieu?\n\nLamun diaktipkeun, Bot bakal ngahapus pesenna sanggeus {0} sangkan obrolan anjeun beresih jeung jelas."
+setting_10 : "⁉️ Naon Ieu?\n\n1) Grup: Muterkeun musik dina grup anu paréntahna dipasihkeun .\n\n2) Saluran: Muterkeun musik dina saluran anu anjeun pikahoyong. Setel id saluran ngalangkungan /channelplay"
+setting_11 : "⁉️ Naon Ieu?\n\n1) Sarerea: Saha waé nu aya di grup ieu bisa maénkeun musik di dieu.\n\n2) Admin Ngan: Ngan admin nu bisa maénkeun musik dina grup ieu."
+setting_12 : "❌ Anjeun teu gaduh id saluran anu ditetepkeun pikeun mode saluran. Mangga tangtoskeun nganggo /channelplay."
+setting_13 : "Teu bisa ngarobah mode muter dina panggero grup aktip. Mangga eureun obrolan sora heula jeung /stop."
+setting_14 : "⁉️ Naon Ieu?\n\nNalika diaktipkeun, Bot bakal ngahapus paréntah anu dieksekusi (/play, /pause, /shuffle, /stop jsb). dianggo leres".
+setting_15 : "Gagal ngabéréskeun peer, Pastikeun anjeun parantos nambihan bot dina saluran anjeun sareng ngamajukeunana salaku admin.\n\nCoba setel /channelplay deui.."
+
+set_cb_1 : "Meunangkeun Panel Kualitas Audio..."
+set_cb_2 : "Meunangkeun Panel Kualitas Video..."
+set_cb_3 : "Meunangkeun Panel Pamaké Auth..."
+set_cb_4 : "Meunangkeun Panel Mode Play..."
+set_cb_5 : "Meunangkeun Panel Mode Beresih..."
+set_cb_6 : "Nyetél parobahan."
+set_cb_7 : "Meunangkeun Daptar Pamaké Auth.. PUNGGA ANTOS."
+set_cb_8 : "Balik deui.."
+
+# Misc
+usats_1 : "Teu Kapendak Statistik Pamaké."
+usstats_2 : "Salam!, Anjeun parantos maén **{0}** lagu dugi ka ayeuna kalayan jumlah anu ageung **{1}** kali.\n\nTop {2} dimaénkeun ku anjeun:\n\n"
+
+gstats_1 : "Meunangkeun Statistik Global, Ieu bisa butuh sababaraha waktu..."
+gstats_2 : "Euweuh Statistik Kapanggih."
+gstats_3 : "Meunangkeun Global Top 10 {0} dina bot, Ieu bisa butuh sababaraha waktu.."
+gstats_4 : "**Total Patarosan dina Bot:** {0}\n\n{1} geus maén **{2}** lagu nepi ka ayeuna kalayan jumlahna loba **{3}** kali.\n \n**Top {4} Lagu:**\n"
+gstats_5 : "**Obrolan {0} Pangluhurna tina {1}:**\n\n"
+gstats_6 : "**Pamaké {0} Pangluhurna tina {1}:**\n\n"
+gstats_7 : "Grup obrolan ieu geus maenkeun **{0}** lagu nepi ka ayeuna kalayan jumlahna hérang **{1}** kali.\n\n{2} Luhur dimaénkeun ku grup obrolan ieu:\n\n"
+gstats_8 : "Kéngingkeun statistik umum sareng inpormasi Bot.. Ieu tiasa nyandak sababaraha waktos..."
+gstats_9 : "** 10 STATS TOP GLOBAL OF THE BOT**\n\nPilih tombol-tombol di handap nu Anjeun hoyong pariksa statistik global ti server bot."
+gstats_10 : "**Statistik Global tina {0}**\n\nPilih tombol-tombol di handap nu Anjeun hoyong pariksa statistik global ti pangladén bot."
+gstats_11 : "**Statistik Umum {0}**\nPilih tombol ti handap nu Anjeun hoyong pariksa statistik global ti pangladén bot.\n\nPikeun mariksa lagu luhur, obrolan, pamaké jeung barang séjén, mangga paké /gstats "
+
+
+# Ulin
+
+#Play Callback
+playcb_1 : "Ieu sanés kanggo anjeun! Milarian Lagu anjeun sorangan."
+playcb_2 : "Meunangkeun Hasil Salajengna"
+
+# Saluran Play
+cplay_1 : "Anjeun tiasa muterkeun musik dina saluran tina obrolan ieu [{0}] ka saluran mana wae atawa saluran numbu obrolan anjeun.\n\n**Pikeun saluran numbu:**\n`/{1} numbu`\n\ n**Pikeun saluran anu sanés:**\n`/{1} [ID Saluran]`"
+cplay_2 : "Obrolan ieu teu boga saluran numbu."
+cplay_3 : "Kanal Ditetepkeun ka {0}\n\n__ID Saluran__: {1}"
+cplay_4 : "Gagal meunang saluran.\n\nPastikeun anjeun geus nambahkeun bot dina saluran anjeun sarta ngamajukeunana jadi admin.\nGanti saluran liwat /channelplay atawa nonaktipkeun mode play channel liwat /playmode"
+cplay_5 : "Ngan Saluran anu dirojong."
+cplay_6 : "Anjeun kudu jadi **Pamilik** saluran[{0}] pikeun nyambungkeunana jeung grup ieu.\n**Pamilik Saluran:** @{1}\n\nAlternatipna anjeun bisa numbu grup anjeun ka saluran éta teras cobian sambungkeun sareng `/channelplay linked`"
+
+#Ulin
+play_1 : "🔄 Ngolah Pananya... Mangga Antosan!"
+play_2 : "**🏷Modeu Puter Saluran**\n\n🔄 Ngolah Paménta... Punten Antosan!\n**Saluran Numbu:** {0}"
+play_3 : "Gagal Ngolah Paménta!"
+play_4 : "🖇 **Admin Ngan Puter**\nNgan Admin jeung Pamaké Auth anu bisa maénkeun musik dina grup ieu.\n\nGanti modeu via /playmode jeung lamun geus jadi admin, muat ulang admincache via /admincache"
+play_5 : "Gagal ngolah file audio.\n\nUkuran File Audio Kuduna Kurang Ti 100 mb"
+play_6 : "**Wates Durasi Ngalangkungan**\n\n**Diidinan Durasi: **{0} menit\n**Durasi Ditampa:** {1} jam (s)"
+play_7 : "Hampura! Bot ngan ngawenangkeun jumlah kawates sauran pidéo kusabab masalah kaleuleuwihan CPU. Seueur obrolan sanés anu nganggo telepon pidéo ayeuna. Coba gentos kana audio atanapi cobian deui engké"
+play_8 : "Sanes Ekstensi File Pidéo Sah!\n\n**Format nu Dirojong:** {0}"
+play_9 : "Ukuran File Video Kuduna Kurang Ti 1 GiB"
+play_10 : "**Fitur Daptar Puter YouTube**\n\nPilih Modeu nu Anjeun hoyong puterkeun sadayana Daptar Puter Youtube"
+play_11 : "📎Judul: **{0}\n\n⏳Durasi:** {1} Menit"
+play_12 : "**Spotify Play Mode**\n\nDipénta Ku:- {0}"
+play_13 : "**Daptar Puter Apple**\n\nDipénta Ku:- {0}"
+play_14 : "**Henteu tiasa pariksa URL.**\nBot heran naha url ieu milik salah sahiji platform di handap ieu: Youtube, AppleMusic, Spotify, Resso sareng Soundcloud.\n\nAnjeun tiasa nganggo /stream pikeun M3u8 atanapi Tautan Jauh ."
+play_15 : "**Live Stream Detected**\n\nSistem geus ngadeteksi link lagu anjeun salaku live stream. Hoyong maén live stream ?"
+play_16 : "Gagal nyandak detil lagu. Coba ulinkeun nu séjén."
+play_17 : "Teu bisa muterkeun tipe ieu query spotify!\n\nKuring ngan bisa muterkeun spotify lagu, albeum, artis jeung playlist"
+play_18 : "**Teu Dipanggihan Obrolan Sora Aktif**\n\nPikeun make play force, kudu aya obrolan sora aktip dina grup anjeun. **Force Play** ngeureunkeun lagu maén dina obrolan sora tur mimitian maén milarian lagu sacara instan tanpa ngaganggu/ngabersihan antrian."
+
+
+#Daptar puter
+playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nLamun anjeun hayang maénkeun Bot's Server Playlist! Pencét tombol di handap."
+playlist_2 : "Meunangkeun daptar puter anjeun. Mangga antosan"
+playlist_3 : "Anjeun teu boga playlist dina Server Bot."
+playlist_4 : "Daptar Puter Dipulut:\n\n"
+playlist_5 : " Lilana- {0} Menit"
+playlist_6 : "Hubungi kuring dina PM pikeun ngahapus Daptar puter."
+playlist_7 : "Lagu di jero Daptar puter: {0}\n\nPencét Tombol pikeun mupus lagu tinangtu dina daptar puter anjeun.\n\nPikeun mupus sakabeh daptar puter: Pencét tombol Del Whole Playlist."
+playlist_8 : "Geus Aya\n\nIeu lagu aya dina playlist anjeun."
+playlist_9 : "Hampura! Anjeun ngan bisa boga {0} musik dina daptar puter."
+playlist_10 : "Tambahan Daptar Puter\n\n{0}\ditambahkeun kana daptar puter anjeun."
+playlist_11 : "Berhasil ngahapus lagu anjeun."
+playlist_12 : "Gagal ngahapus lagu anjeun."
+playlist_13 : "Hapus sakabéh daptar puter anjeun tina server."
+playlist_14 : "**Naha anjeun yakin rék ngahapus sakabéh daptar puter anjeun?**\n\nAnjeun bakal leungiteun daptar puter anjeun sarta ieu moal bisa dipulihkeun engké."
+playlist_15 : "[Checkout Sakabéh Daptar puter]({0})"
+playlist_16 : "Antrian Playlist:"
+playlist_17 : "Posisi antrian-"
+playlist_18 : "[Checkout Whole Queued Playlist]({0})\n\nPosisi Antrian Panungtungan : **{1}**"
+
+#Modeu Play
+playmode_1 : "Pilih mode nu Anjeun hoyong puterkeun patarosan di jero grup anjeun[{0}]."
+playmode_2 : "Setélan dirobah sarta junun disimpen ku {0}"
+
+#Sulur
+str_1 : "Punten Nyadiakeun Tumbu M3u8 atanapi Tumbu Indéks."
+str_2 : "✅ Aliran Sah Diverifikasi\n\nPunten antosan tautan ngolah.."
+str_3 : "Henteu tiasa ngalirkeun aliran langsung youtube. Teu aya Format Langsung Kapanggih"
+
+#TopPlay
+tracks_1 : "**Ngolah {0} Top 10 Daptar Puter**\nIeu tiasa nyandak sababaraha menit (sakitar 3-4 mnt).. Mangga Antosan...\n\n**👤Dipénta Ku:** {1}\ n\nPariksa Top 10 lagu ku /stats"
+tracks_2 : "**Error**\n\nTeu aya **{0} Top 10 Playlist** dina server bot. Mangga cobian daptar puter anu sanés"
+
+# ALAT
+
+#Lirik
+lyrics_1 : "**Pamakean:**\n\n/lirik [Ngaran Musik]"
+lyrics_2 : "Milarian Lirik"
+lyrics_3 : "❌ Gagal nyandak lirik😭.\n\n💡**Coba Milarian:** {0}"
+lyrics_4 : "Klik dina tombol di handap tur neangan lirik searched pikeun nyegah panjang spam jenis pilarian lirik."
+
+#Ping
+ping_1 : "Pong!!!!"
+ping_2 : "**Pong!**\n`⚡{0} ms`\n\n<b><u>{1} Statistik Sistem:</u></b>\nWaktos: {2} \nRam : {3} \nCpu : {4} \nDisk : {5}"
+
+# Lagu
+song_1 : "Anjeun tiasa ngaunduh Musik atanapi Pidéo tina YouTube ngan ukur dina obrolan pribadi. Mangga ngamimitian kuring dina obrolan pribadi."
+song_2 : "** Pamakéan:**\n\n/lagu [Ngaran Musik] atawa [Tumbu Youtube]"
+song_3 : "Tumbu Langsung Dideteksi. Abdi henteu tiasa ngaunduh pidéo youtube langsung."
+song_4 : "**🔗Judul:**- {0}\n\nPilih jenis nu Anjeun hoyong undeur."
+song_5 : "Sanes Tautan Youtube anu sah"
+song_6 : "Meunang Format.. \n\nPunten Antosan.."
+song_7 : "Gagal meunangkeun format nu sadia pikeun video. Mangga cobian mana wae lagu sejenna."
+song_8 : "Ngundeur Dimimitian\n\nLaju undeur bisa jadi lambat. Mangga tahan.."
+song_9 : "Gagal ngundeur lagu tina Youtube-DL\n\n**Alesan:** {0}"
+song_10 : "Gagal unggah dina telegram ti server."
+song_11 : "Ngamuat Dimimitian\n\nLaju unggahna bisa jadi lambat. Mangga tahan.."
+
+# Pakakas - Antrian
+queue_1 : "Punten Antosan..Ngukut Antrian.."
+queue_2 : "Henteu aya lagu di jero Antrian."
+queue_3 : "<u>**Lagu Antrian:</u>** [Parios Antrian Lain Ti dieu]({0})"
+queue_4 : "⏳ Ditambahkeun kana Antrian di **#{0}\n\n💡Judul:** {1}\n**⏱Durasi:** {2}\n👤**Ditambahkeun Ku:** {3 }"
+
+# All Streaming Lines
+stream_1 : "📡 **Mimiti Streaming** 💡\n\n👤**Dipénta Ku:** {0}\n🔦**Inpormasi: **[Di dieu]({1})"
+stream_2 : "📡 **Mimiti Streaming via URL ** 💡\n\n👤**Dipénta Ku:** {0}"
+stream_3 : "📡 **Mimiti Streaming** 💡\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Dipénta Ku:** {2} "
+stream_4 : "📡 **Mimiti Streaming** 💡\n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Dipénta Ku:** {3}"
+
+# Inline Buttons
+
+#General Buttons
+CLOSE_BUTTON : "🗑 Tutup"
+CLOSEMENU_BUTTON : "🗑 Tutup Menu"
+BACK_BUTTON : "⬅ Balik"
+UNBAN_BUTTON : "🗑 Unban Assistant"
+
+#Lyrics
+L_B_1 : "🚀 Lirik Checkout Ayeuna"
+
+# Start
+S_B_1 : "🗒 Paréntah"
+S_B_2 : "🔧 Setélan"
+S_B_3 : "📨 Ngadukung"
+S_B_4 : "📨 Saluran"
+S_B_5 : "✚ Tambihkeun abdi ka Grup anjeun"
+S_B_6 : "💡 Git Repo"
+S_B_7 : "👤 Pamilik Bot"
+S_B_8 : "🔎 Kumaha Carana? Menu Komando."
+
+#Help 
+H_B_1 : "Paréntah Admin"
+H_B_2 : "Paréntah Play"
+H_B_3 : "Paréntah Bot"
+H_B_4 : "Paréntah Tambahan"
+H_B_5 : "Tutup Menu"
+H_B_6 : "Paréntah SudoUser"
+
+#PlayMode
+PM_B_1 : "DirectPlay"
+PM_B_2 : "InlineMarkup"
+PM_B_3 : "ChannelPlay"
+
+#Play
+P_B_1 : "🎵 Puter Audio"
+P_B_2 : "🎥 Puter Video"
+P_B_3 : "🏮 Mimitian Live Stream"
+P_B_4 : "🎵 Puterkeun Daptar Puter"
+
+#Playlist
+PL_B_1 : "🚀 Puter Daptar Puter"
+PL_B_2 : "✚ Daptar puter"
+PL_B_3 : "✚ Tambahan"
+PL_B_4 : "📡 Modeu Play"
+PL_B_5 : "🔄 Del Sakabeh Daptar Puter"
+PL_B_6 : "↗️ Hapus Daptar Puter"
+PL_B_7 : "❗️ Sumuhun, abdi yakin. Hapus eta"
+PL_B_8 : "🔢 Puter Top 10"
+PL_B_9 : "🤖 Puter 10 Lagu Top Global"
+PL_B_10 : "🏘 Puterkeun 10 Lagu Top Grup"
+PL_B_11 : "👤 Puter Top 10 Lagu Pribadi"
+
+#Settings
+ST_B_1 : "🔊 Kualitas Aud"
+ST_B_2 : "🎥 Kualitas Vid"
+ST_B_3 : "🎩 Pamaké Auth"
+ST_B_4 : "📱 Dasbor"
+ST_B_5 : "▶️ Modeu Puter"
+ST_B_6 : "🏳️‍🌈 Basa"
+ST_B_7 : "🔄 Modeu Bersih"
+ST_B_8 : "{0} Audio Kualitas Rendah"
+ST_B_9 : "{0} Audio Kualitas Sedeng"
+ST_B_10 : "{0} Audio Kualitas Luhur"
+ST_B_11 : "{0} Video Kualitas Rendah"
+ST_B_12 : "{0} Video Kualitas Sedeng"
+ST_B_13 : "{0} Pidéo Kualitas Tinggi"
+ST_B_14 : "✅ Diaktipkeun"
+ST_B_15 : "❌ Ditumpurkeun"
+ST_B_16 : "👤 Admin"
+ST_B_17 : "👥 Dulur"
+ST_B_18 : "📋 Daptar Pamaké anu Otorisasi"
+ST_B_19 : "🔎 Modeu Pilarian"
+ST_B_20 : "✅ Langsung"
+ST_B_21 : "✅ Inline"
+ST_B_22 : "👨‍⚖️ Paréntah Admin"
+ST_B_23 : "🏘 Grup"
+ST_B_24 : "🏷 Saluran"
+ST_B_25 : "🫂 Jenis Puteran"
+ST_B_26 : "🗑 Komando Bersih"
+
+#Song
+SG_B_1 : "↗️ Buka Obrolan Pribadi"
+SG_B_2 : "🔊 Audio"
+SG_B_3 : "🎥 Video"
+
+#Stats
+SA_B_1 : "📢 Top 10 Obrolan"
+SA_B_2 : "🔢 10 Lagu Top"
+SA_B_3 : "🧛 Top 10 Pamaké"
+SA_B_4 : "🏷 Top 10 Ieuh"
+SA_B_5 : "💡 Statistik Gemblengna"
+SA_B_6 : "👤 Statistik Pamaké"
+SA_B_7 : "🔢 Global Top 10 Statistik"
+SA_B_8 : "🤖 Statistik Bot"
+
+# Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
+
+#Sudo
+sudo_1 : "{0} geus jadi pamaké sudo."
+sudo_2 : "Tambihkeun **{0}** ka Pamaké Sudo."
+sudo_3 : "Henteu bagian tina Sudo Bot."
+sudo_4 : "Dipiceun tina Pamaké Sudo Bot"
+sudo_5 : "⭐️<u> **Pamilik:**</u>\n"
+sudo_6 : "\n⭐️<u> **Pamaké Sudo:**</u>\n"
+sudo_7 : "Teu aya Pamaké Sudo"
+
+#Block
+block_1 : "{0} geus dipeungpeuk tina bot."
+block_2 : "Tambihkeun **{0}** kana Daptar Meungpeuk bot. Pamaké moal tiasa nganggo bot ayeuna dina kaayaan naon waé.\n\nParios pamaké anu dipeungpeuk: /blockedusers"
+block_3 : "Pamaké geus bébas tur teu diblokir."
+block_4 : "Pamaké Dipiceun tina daptar peungpeuk. Pamaké bakal tiasa nganggo bot ayeuna."
+block_5: "Henteu aya pangguna anu diblokir"
+block_6 : "Meunang Daptar Pamaké anu Diblokir.. Mangga Antosan"
+block_7 : "**Pamaké Diblokir:**\n\n"
+
+#Blacklist Chats
+black_1 : "**Pamakean:**\n/blacklistchat [CHAT_ID]"
+black_2 : "Chat tos diblacklist."
+black_3 : "Obrolan geus hasil di-blacklist"
+black_4 : "**Pamakean:**\n/whitelistchat [CHAT_ID]"
+black_5 : "Chat tos dibodaskeun."
+black_6 : "Obrolan geus hasil dibodaskeun"
+black_7 : "**Obrolan Daptar Hideung:**\n\n"
+black_8 : "Teu aya Obrolan Daptar Hideung"
+
+#videolimit
+vid_1 : "**Pamakean:**\n/set_video_limit [Jumlah obrolan anu diidinan] atanapi [Pareuman]"
+vid_2 : "Punten Anggo Angka Numerik kanggo Nyetel Wates."
+vid_3 : "Wates Maksimum Telepon Video Ditetepkeun ka {0} Obrolan."
+vid_4 : "Telepon Pidéo Dinonaktipkeun"
+
+#maintenance
+maint_1 : "**Pamakean:**\n/pangropéa [aktipkeun|nonaktipkeun]"
+maint_2 : "Diaktipkeun pikeun Pangropéa"
+maint_3 : "Mode Pangropéa Dinonaktipkeun"
+
+#log
+log_1 : "**Pamakean:**\n/logger [aktipkeun|nonaktipkeun]"
+log_2 : "Logging Diaktipkeun"
+log_3 : "Logging Dipareuman"
+
+#videomode
+vidmode_1 : "** Pamakéan:**\n/videomode [download|m3u8]"
+vidmode_2 : "Modeu Play Video disetel salaku downloder. Bot bakal ngundeur lagu ayeuna."
+vidmode_3 : "Modeu Play Video disetel salaku m3u8. Bot bakal diputerkeun lagu langsung ayeuna."
+
+#broadcast
+broad_1 : "**Pesen Disiarkeun Dina {0} Obrolan nganggo {1} Pin ti Bot.**"
+broad_2 : "Ngamimitian Asisten Siaran..."
+broad_3 : "**Asisten Siaran:**\n\n"
+broad_4 : "Asisten {0} Disiarkeun dina {1} obrolan\n"
+broad_5 : "**Pamakéan**:\n/broadcast [PESAN] atawa [Bales ka Talatah]"
+broad_6 : "Mangga nyadiakeun sababaraha téks pikeun disiarkeun."
+broad_7 : "**Siaran Pesen ka {0} Pamaké.**"
+
+#Heroku
+heroku_1 : "Punten pastikeun Konci API Heroku anjeun, Ngaran Aplikasi anjeun dikonpigurasi leres dina heroku"
+heroku_2 : "Anjeun ngan ukur tiasa kéngingkeun log tina Aplikasi Heroku"
+heroku_3 : "**Usage:**\n/get_var [Var Name]"
+heroku_4 : "Henteu tiasa mendakan var sapertos kitu."
+heroku_5 : ".env file teu kapanggih."
+heroku_6 : "**Usage:**\n/del_var [Var Name]"
+heroku_7 : "{0} Dipupus."
+heroku_8 : "**Usage:**\n/set_var [Var Name] [Var Value]"
+heroku_9 : "{0} geus hasil diropéa"
+heroku_10 : "{0} geus hasil ditambahkeun"
+heroku_11 : "Ngan kanggo Aplikasi Heroku"
+heroku_12 : "Mariksa Pamakéan Heroku. Mangga Antosan"
+heroku_13 : "Mariksa apdet sadia..."
+heroku_14 : "Git Command Kasalahan"
+heroku_15 : "Repository Git Teu Sah"
+
+#Private bot mode
+pbot_1 : "**Usage:**\n/otorisasi [CHAT_ID]"
+pbot_2 : "**Pamakean:**\n/henteu otorisasi [CHAT_ID]"
+pbot_3 : "Tambihkeun obrolan anu dipasihkeun kana daptar anu otorisasi"
+pbot_4 : "Cabut obrolan anu dipasihkeun tina daptar otorisasi"
+pbot_5 : "Chat tos aya dina daptar otorisasi"
+pbot_6 : "Teu aya obrolan sapertos kitu dina daptar otorisasi"
+pbot_7 : "Gagal verifikasi chat_id.\n\nPastikeun numerik na formatna bener. Entong nganggo nami pangguna atanapi tautan obrolan."
+pbot_8 : "Punten antosan.... Nyokot obrolan anu Otorisasi."
+pbot_9 : "**<b>Obrolan Dipulut:</b>**\n\n"
+pbot_10 : "Obrolan Pribadi"
+pbot_11 : "Teu aya obrolan anu Otorisasi kapanggih"
+pbot_12 : "Modeu Bot Pribadi ditumpurkeun.\n\nPikeun make bot anjeun jadi bot pribadi pastikeun pikeun nyetel **PRIVATE_BOT_MODE** = **Leres**"
+pbot_13 : "\n**<b>Obrolan Teu Dicokot:</b>**\n\n"
+
+
+#Gbanned
+gban_1 : "Rék gban sorangan? Bodo kumaha!"
+gban_2 : "Naha kuring kudu ngahalangan sorangan? Hihihi"
+gban_3 : "Anjeun rék meungpeuk pamaké sudo?"
+gban_4 : "{0} geus **dilarang** tina bot."
+gban_5 : "**Ngawitan Larangan Gobal dina {0}**\n\nWaktos Diperkirakeun : {1}."
+gban_6 : "**Gbanned Sukses**\n\nDilarang **{0}** tina **{1}** chats."
+gban_7 : "{0} can **gbanned **acan tina bot."
+gban_8 : "**Ungbanning {0}**\n\nWaktos Diperkirakeun : {1}."
+gban_9 : "**UnGbanned Suksés**\n\nNgaleupaskeun **{0}** dina **{1}** chats."
+gban_10 : "Teu Kapanggih Pamaké Gbanned."
+gban_11 : "Punten antosan sakedap.. Nyokot daptar pangguna Gbanned"
