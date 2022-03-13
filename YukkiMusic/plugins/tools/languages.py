@@ -37,9 +37,7 @@ def lanuages_keyboard(_):
         InlineKeyboardButton(
             text="🇮🇩 Sunda",
             callback_data=f"languages:su",
-        ),
-    )
-    keyboard.row(   
+        ), 
         InlineKeyboardButton(
             text="🇮🇩 Jawa",
             callback_data=f"languages:java",
