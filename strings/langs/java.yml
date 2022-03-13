@@ -12,7 +12,7 @@ general_6 : "Bot ora streaming ing obrolan swara."
 tg_1 : "Bot **kakehan** karo undhuhan saiki.\n\n**Coba Sawise:** {0} (__wektu samesthine__)"
 tg_2 : "Gagal ngundhuh media saka telegram."
 
-# Inti - Call.py
+# Core - Call.py
 call_1 : "Bot mbutuhake **Admin** Idin kanggo ngundang akun asisten menyang saluran sampeyan.\n\nPateni mode play Channel liwat : /playmode"
 call_2 : "Asisten dilarang ing grup utawa saluran sampeyan, mangga batal larangan.\n\n**Jeneng Panganggo Asisten:** @{0}\n**ID Asisten:** {1}"
 call_3 : "Pengecualian Terjadi Nalika Ngundang Akun Asisten menyang obrolan sampeyan.\n\n**Alasan**: {0}"
@@ -163,7 +163,7 @@ playlist_6 : "Hubungi kula ing PM kanggo mbusak dhaptar lagu."
 playlist_7 : "Tracks Inside Playlist: {0}\n\nPencet Tombol kanggo mbusak trek tartamtu ing dhaptar lagu sampeyan.\n\nKanggo mbusak kabeh dhaptar lagu: Pencet Del Whole Playlist tombol."
 playlist_8 : "Wis Ana\n\nTrek iki ana ing dhaptar lagu sampeyan."
 playlist_9 : "Ngapunten! Sampeyan mung bisa duwe {0} musik ing dhaptar lagu."
-playlist_10 : "Tambahan Dhaptar Lagu\n\n{0}\ditambahake menyang dhaptar lagu sampeyan."
+playlist_10 : "Tambahan daptar Lagu\n\n{0}\nditambahake menyang dhaptar lagu sampeyan."
 playlist_11 : "Kasil mbusak trek sampeyan."
 playlist_12 : "Gagal mbusak trek sampeyan."
 playlist_13 : "Mbusak kabeh dhaptar lagu saka server."
