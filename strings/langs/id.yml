@@ -133,7 +133,7 @@ cplay_5 : "Hanya Saluran yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke saluran itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Bermain
-play_1 : "🔄 Memproses Kueri... Harap Tunggu!"
+play_1 : "🔄 Memproses Lagu...!"
 play_2 : "**🏷Mode Putar Saluran**\n\n🔄 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses Kueri!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
